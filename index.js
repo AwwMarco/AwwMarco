@@ -120,7 +120,7 @@ client.on("messageCreate", (message) => {
     return;
   }
 
-  else if(str === '樂熙' || str === 'alex' || str === 'alex' || str === '黃樂熙') {
+  else if(str === '樂熙' || str === 'alex' || str === 'alex' || str === '黃樂熙' || str === '肥仔波') {
     message.channel.send("https://cdn.discordapp.com/attachments/601358481559257098/1030177365738930256/WhatsApp_Image_2022-10-14_at_1.56.30_AM.jpeg")
     message.channel.send("奇奇怪怪嘅樂熙")
     return;
