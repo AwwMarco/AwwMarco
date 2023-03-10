@@ -222,6 +222,10 @@ client.on("messageCreate", (message) => {
     message.channel.send("yes你老母X2! " + message.author.username)
     return;
   }
+  else if(str === 'hi') {
+    message.channel.send("hi "+ message.author.username)
+    return;
+  }
   else if(str === '水魚既智商') {
     message.channel.send("無法計算")
     return;
@@ -269,10 +273,11 @@ client.on("messageCreate", (message) => {
     return;
   }
   else if(str === 'red sun in the sky' || str === '天上太阳红彤彤' || str === '天上太陽紅彤彤') {
-    message.channel.send("天上太陽紅呀紅彤彤誒\n心中的太陽是毛澤東誒\n他領導我們得解放誒\n人民翻身當家做主人\n咿呀咿吱呦喂呀而呀吱呦啊\n人民翻身當家做主人\n咿呀咿吱呦喂呀而呀吱呦啊\n人民翻身當家做主人")
+    message.channel.send("天上太陽紅呀紅彤彤誒\n心中的太陽是毛澤東誒")
+    message.channel.send("https://www.youtube.com/watch?v=1S4xFl4CD34")
     return;
   }
 
 })
 
-client.login("MTAzMDA0Njg1ODUxMDM1NjU1MQ.G3amA_.TB5N-eFJmU2MJMHCSfeyaw5mAA40iXuwL5qLuM");
+client.login(" ");
